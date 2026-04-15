@@ -1,0 +1,84 @@
+.MainMessageHeader{
+  
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HeaderName{
+  color: rgb(68, 53, 53);
+  font-family: Roboto;
+  background-color: transparent;
+  padding-left: 20px;
+  
+}
+.HeaderIconDiv{
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.HeaderName{
+  color: white;
+  font-weight: 400;
+
+}
+.MainMessageHeader,.HeaderIconDiv,.IconDiv,.CreateIcon,.MenuIcon{
+    background-color: rgb(27, 26, 26);
+
+}
+
+.CreateIcon,.MenuIcon{
+  border-radius: 100%;
+  padding: 6px;
+  transition:all 0.5s ease;
+}
+.CreateIcon:hover,.MenuIcon:hover{
+  background-color: rgb(78, 77, 77);
+  cursor: pointer;
+  border-radius: 50%;
+}
+/* Menu Tooltip */
+
+.HeaderIconDiv{
+  position: relative;
+}
+.Menu {
+  position: absolute;
+  z-index: 1000;
+  top: 100%;
+  left: 0;
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  background-color: rgb(26, 24, 24);
+  box-shadow: 0px 0px 3px lightgrey ;
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  padding:5px;
+}
+.MyMenus{
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.MyMenus:hover{
+ 
+  cursor: pointer;
+  background-color: rgb(46, 45, 45);
+}
+.TooltipIcon{
+  color: white;
+  width: 20px;
+  height: 20px;
+  
+}

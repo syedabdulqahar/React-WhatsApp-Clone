@@ -14,28 +14,28 @@ function NavBar() {
       <main className="NavBar-Main">
         <div className="Upper">
           <NavbarTooltip text={"Chats"}>
-            <Message className="Icon" size={30} />
+            <Message className="Icon" size={25} />
           </NavbarTooltip>
           <NavbarTooltip text={"Status"}>
-            <FaDotCircle className="Icon" size={30} />
+            <FaDotCircle className="Icon" size={25} />
           </NavbarTooltip>
           <NavbarTooltip text={"Channels"}>
-            <Channel className="Icon" size={30} />
+            <Channel className="Icon" size={25} />
           </NavbarTooltip>
           <NavbarTooltip text={"Group"}>
-            <Community className="Icon" size={30} />
+            <Community className="Icon" size={25} />
           </NavbarTooltip>
           <hr style={{ color: "white" }} />
           <NavbarTooltip text={"Meta AI"}>
-            <Meta className="Icon" color={"blue"} size={30} />
+            <Meta className="Icon" color={"blue"} size={25} />
           </NavbarTooltip>
         </div>
         <div className="Lower">
           <NavbarTooltip text={"Media"}>
-            <Media className="Icon" size={30} />
+            <Media className="Icon" size={25} />
           </NavbarTooltip>
           <NavbarTooltip text={"User"}>
-            <User className="Icon" size={30} />
+            <User className="Icon" size={25} />
           </NavbarTooltip>
         </div>
       </main>

@@ -1,0 +1,23 @@
+
+@import url('https://fonts.google.com/share?selection.family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900|Roboto:ital,wght@0,100..900;1,100..900');
+.MainMessages{
+ 
+  width: 100%;
+ 
+  height: 100vh;
+  background-color: aliceblue;
+}
+.MainMessages{
+  display: flex;
+}
+.MessageIndex{
+  width: 350px;
+  background-color: rgb(27, 26, 26);
+  border-right: 0.5px solid rgb(48, 180, 180);
+}
+.MessageChat{
+  flex: 1;
+  background-color: rgb(30, 110, 180);
+}
+
+/* MainMessageHeader     */

@@ -2,32 +2,32 @@
   font-size: 30px;
   color: grey;
   padding: 5px;
-  transition:0.15s
+  transition:0.15s;
+  border-radius: 50%;
 }
 .Icon:hover{
   color: rgb(192, 183, 183);
   background-color: rgb(75, 76, 77);
-  border-radius: 50%;
+  
   cursor:pointer;
 }
 
 .NavBar-Main {
   width: 60px;
-  border-right: 1px solid black;
+  border-right:1px solid rgb(136, 135, 135);
   height: 100vh;
-  position: fixed;
-  left: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  z-index: 1;
 }
 
 .Upper{
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding-top: 10px;
+  gap: 10px;
+  padding-top: 20px;
 
 }
 .Lower{
